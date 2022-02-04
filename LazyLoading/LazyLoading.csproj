@@ -11,10 +11,30 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.1" PrivateAssets="all" />
     <PackageReference Include="Syncfusion.Blazor.Buttons" Version="19.4.0.48" />
     <PackageReference Include="Syncfusion.Blazor.Calendars" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Charts" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Data" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Lists" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Notifications" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Popups" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.Spinner" Version="19.4.0.48" />
+    <PackageReference Include="Syncfusion.Blazor.SplitButtons" Version="19.4.0.48" />
   </ItemGroup>
 	<ItemGroup>
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Buttons.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Calendars.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Charts.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Data.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.DropDowns.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Grid.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Lists.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Navigations.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Notifications.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Popups.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Spinner.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.SplitButtons.dll" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Sample\Sample.csproj" />
