@@ -28,7 +28,7 @@
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Charts.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Data.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.DropDowns.dll" />
-		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Grid.dll" />
+		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Grids.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Lists.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Navigations.dll" />
 		<BlazorWebAssemblyLazyLoad Include="Syncfusion.Blazor.Notifications.dll" />

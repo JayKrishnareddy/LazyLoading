@@ -21,7 +21,7 @@
     {
         try
         {
-            if (args.Path == "fetchdata")
+            if (args.Path.StartsWith("fetchdata"))
             {
                 var assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Sample.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Buttons.dll" });
@@ -31,16 +31,17 @@
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Grid.dll" });
                 lazyLoadedAssemblies.AddRange(assemblies);
             }
-            if(args.Path == "counter")
+            if(args.Path.StartsWith("counter"))
             {
                 var assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Calendars.dll" });
+                assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Buttons.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Lists.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Navigations.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Notifications.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Popups.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.Spinner.dll" });
                 assemblies = await assemblyLoader.LoadAssembliesAsync(new[] { "Syncfusion.Blazor.SplitButtons.dll" });
-                 lazyLoadedAssemblies.AddRange(assemblies);
+                lazyLoadedAssemblies.AddRange(assemblies);
             }
         }
         catch (Exception ex)
