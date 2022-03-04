@@ -1,12 +1,13 @@
-## 🔐 Enable OAuth 2 Authorization Using Azure AD And Swagger In .Net 5.0 
+## How Lazyloading In Blazor Can Increase Your Application Performance! (.Net 6) 
 
 ### Topics Covered in this Project?
 
 👇🏻
 
-[**🔐 Enable Azure AD Authentication Using .Net 5.0 Web API**](https://www.c-sharpcorner.com/article/graphql-api-with-net-5-ef-core-and-hot-chocolate/ "🔐 Enable Azure AD Authentication Using .Net 5.0 Web API")
+###Prerequisites
 
-
+    - [**SDK**](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks "SDK") - .Net 6.0
+    - IDE - Visual Studio 2022
 - Create a Web API project with Microsoft Identity Platform - Authentication type
 - Register an Azure AD (AAD) app for the Web API.
 - Create a Scope for App registration (API)
