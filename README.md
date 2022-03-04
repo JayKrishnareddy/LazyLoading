@@ -3,7 +3,7 @@
 ### Prerequisites
 
 - [**SDK**](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks "SDK") - .Net 6
-- [**IDE**](https://visualstudio.microsoft.com/vs/ "Visual Studio 2022") - VS 2022
+- [**IDE**](https://visualstudio.microsoft.com/vs/ "Visual Studio 2022") - Visual Studio 2022
 
 ### Topics Covered in this Project?
 
