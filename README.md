@@ -6,8 +6,6 @@
 
 ### Prerequisites
 
-    - [**C# Corner**](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks "C# Corner") - .Net 6.0
-    - IDE - Visual Studio 2022
 - Create a Web API project with Microsoft Identity Platform - Authentication type
 - Register an Azure AD (AAD) app for the Web API.
 - Create a Scope for App registration (API)
