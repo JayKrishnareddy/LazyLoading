@@ -19,3 +19,5 @@
 If you want to learn more about this Article, Do check out my article published from below 👇🏻
 
 [**C# Corner**](https://www.c-sharpcorner.com/article/lazyloading-in-blazor/ "C# Corner")
+
+If you liked the repo then kindly support it by giving it a star ⭐
