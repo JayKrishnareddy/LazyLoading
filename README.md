@@ -1,5 +1,7 @@
 ## How Lazyloading In Blazor Can Increase Your Application Performance! (.Net 6) 
 
+![Alt Text](https://github.com/JayKrishnareddy/CleanArchitecture/blob/master/1_Tpfkss_hdHNyaaJ_3bBgWQ.png)
+
 ### Prerequisites
 
 - [**SDK**](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks "SDK") - .Net 6
