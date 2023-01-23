@@ -1,6 +1,6 @@
 ## How Lazyloading In Blazor Can Increase Your Application Performance! (.Net 6) 
 
-![Alt Text](https://github.com/JayKrishnareddy/CleanArchitecture/blob/master/1_Tpfkss_hdHNyaaJ_3bBgWQ.png)
+![Alt Text](https://github.com/JayKrishnareddy/LazyLoading/blob/master/Blazor.png)
 
 ### Prerequisites
 
